@@ -38,3 +38,5 @@ yarn start
 View on browser
 
 http://localhost:4200/
+
+*Enjoy!*
