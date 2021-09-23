@@ -1,0 +1,19 @@
+name: Get
+
+on:
+  schedule:
+    - cron: '35 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+      -
+        name: Push
+        run: docker pull tmvdl/ws -a
