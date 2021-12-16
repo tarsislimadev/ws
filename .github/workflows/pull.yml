@@ -2,7 +2,7 @@ name: Get
 
 on:
   schedule:
-    - cron: '35 7 * * *'
+    - cron: '35 8 * * *'
   workflow_dispatch:
 
 jobs:
