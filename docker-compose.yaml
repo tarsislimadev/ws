@@ -2,6 +2,7 @@ version: '3'
 
 services:
   app:
+    image: 'tmvdl/projects:ws'
     build: './src/app'
     volumes:
       - './src/app:/app'
