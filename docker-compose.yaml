@@ -2,6 +2,8 @@ version: '3'
 
 services:
   app:
-    build: './src/'
+    build: './src/app'
+    volumes:
+      - './src/app:/app'
     ports:
       - '80:80'
