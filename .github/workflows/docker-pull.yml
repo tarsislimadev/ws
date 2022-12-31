@@ -1,0 +1,13 @@
+name: Docker pull
+
+on:
+  workflow_dispatch:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Docker pull
+        run: docker pull tmvdl/ws -a
+      - name: Docker pull
+        run: docker pull tmvdl/project:ws -a
