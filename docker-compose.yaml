@@ -10,4 +10,6 @@ services:
       - '80:80'
 
   docker-push:
+    image: 'tmvdl/projects:ws'
     build: './src/app'
+
