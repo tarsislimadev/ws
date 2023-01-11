@@ -1,44 +1,11 @@
 # WebSocket Client
 
-## Docker setup
+[![github/actions/workflow/status](https://img.shields.io/github/actions/workflow/status/brtmvdl/ws/docker-push.yml)](https://img.shields.io/github/actions/workflow/status/brtmvdl/ws/docker-push.yml?label=docker) [![github/license](https://img.shields.io/github/license/brtmvdl/ws)](https://img.shields.io/github/license/brtmvdl/ws) [![github/stars](https://img.shields.io/github/stars/brtmvdl/ws?style=social)](https://img.shields.io/github/stars/brtmvdl/antify?style=social)
 
-Run with Docker
+## Documentation
 
-```sh
-docker run -d -p 8000:80 tmvdl/ws
-```
+[See more](./docs/docs.md)
 
-View on browser
+## License
 
-http://localhost:8000/
-
-## Manual setup
-
-Install [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/)
-
-Clone this repository
-
-```sh
-git clone https://github.com/tmvdl/ws.git
-cd ws
-```
-
-Install the dependencies
-
-```sh
-yarn
-```
-
-Start the app
-
-```sh
-yarn start
-```
-
-View on browser
-
-http://localhost:4200/
-
-# Update
-
-Updated 09/18/2021
+[MIT](./LICENSE)
