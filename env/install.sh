@@ -1,1 +1,1 @@
-docker-compose run app npm ci
+docker-compose run $@ npm i
