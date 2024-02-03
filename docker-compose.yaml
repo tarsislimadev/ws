@@ -1,15 +1,15 @@
 version: '3'
 
 services:
-  app:
+
+  angular:
     image: 'tmvdl/projects:ws'
-    build: './src/app'
+    build: './src/angular'
     volumes:
-      - './src/app:/app'
+      - './src/angular:/app'
     ports:
       - '80:80'
 
   docker-push:
     image: 'tmvdl/projects:ws'
-    build: './src/app'
-
+    build: './src/angular'
