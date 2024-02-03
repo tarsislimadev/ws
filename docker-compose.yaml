@@ -1,6 +1,12 @@
 version: '3'
 
 services:
+  www:
+    build: './src/www'
+    volumes:
+      - './src/www:/app'
+    ports:
+      - '8080:80'
 
   angular:
     image: 'tmvdl/projects:ws'
